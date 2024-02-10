@@ -1,0 +1,33 @@
+/* #game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+} */
+
+*{
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+/* 
+Grid Layout
+https://www.w3schools.com/css/css_grid.asp
+*/
+#game{
+  margin: 0 auto;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 100%;
+  gap: 10px;
+}
+
+#game div {
+  height: 200px;
+  width: 100%;
+  border: 3px solid black;
+  cursor: pointer;
+}
